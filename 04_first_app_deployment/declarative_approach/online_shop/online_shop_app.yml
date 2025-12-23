@@ -7,7 +7,7 @@ metadata:
 spec:
   project: default                 # ArgoCD Project (logical grouping of apps)
   source:
-    repoURL: https://github.com/akhtaralikhan786/argocd.git   # Git repo containing manifests
+    repoURL: https://github.com/akhtaralikhan786/argo-cd.git   # Git repo containing manifests
     targetRevision: main           # Git branch or tag (e.g., main, dev, release-1.0)
     path: declarative_approach/online_shop   # Path inside repo where manifests live
   destination:
